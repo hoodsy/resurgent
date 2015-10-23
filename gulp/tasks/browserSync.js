@@ -30,7 +30,8 @@ gulp.task('browserSync', function() {
     },
     ghostMode: {
       links: false
-    }
+    },
+    open: false
   });
 
 });

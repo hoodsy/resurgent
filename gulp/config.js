@@ -2,8 +2,8 @@
 
 export default {
 
-  browserPort: 3000,
-  UIPort: 3001,
+  browserPort: 4000,
+  UIPort: 4001,
 
   sourceDir: './app/',
   buildDir: './build/',
@@ -52,7 +52,7 @@ export default {
     protractor: 'test/protractor.conf.js'
   },
 
-  init: function() {
+  init() {
     this.views.watch = [
       this.views.index,
       this.views.src
