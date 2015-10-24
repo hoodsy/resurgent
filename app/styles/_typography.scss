@@ -1,42 +1,73 @@
-p {
-  margin-bottom: 1em;
+/**
+ * Fonts
+ * =====
+**/
+
+@font-face {
+  font-family: 'Futura-Medium';
+  src: url('../fonts/futura.otf') format('opentype');
 }
 
-.heading {
-  margin-bottom: 0.618em;
+@font-face {
+  font-family: 'Futura-Light';
+  src: url('../fonts/futura-light.ttf') format('truetype');
+}
 
-  &.-large {
-    font-size: $font-size--lg;
-    font-weight: bold;
-    line-height: $half-space * 3 / 2;
-  }
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../fonts/ProximaNova-Light.otf') format('opentype');
+}
 
-  &.-medium {
-    font-size: $font-size--md;
-    font-weight: normal;
-    line-height: $half-space;
-  }
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.otf') format('opentype');
+}
 
-  &.-small {
-    font-size: $font-size--sm;
-    font-weight: bold;
-    line-height: $half-space * 2 / 3;
-  }
+/**
+ * Type Sizing / Spacing
+ * =====================
+**/
 
-  &.-smallest {
-    font-size: $font-size--xs;
-    font-weight: bold;
-  }
+$fs-body: 16px;
+$fs-h1: $fs-body * 2;
+$fs-h2: $fs-body * 1.5;
+$fs-h3: $fs-body;
+
+$lh-body: $fs-body * 1.5;
+$lh-h1: $fs-h1 * 1.25;
+$lh-h2: $fs-h2 * 1.25;
+$lh-h3: $fs-h3 * 1.25;
+
+/**
+ * Base Element Typograpy
+ * ======================
+**/
+
+body {
+  font-size: $fs-body;
+  line-height: $lh-body;
+  font-family: 'ProximaNova-Regular';
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Futura-Medium';
+  text-transform: uppercase;
 }
 
 h1 {
-  @extend .heading.-large;
+  font-size: $fs-h1;
+  line-height: $lh-h1;
 }
 
 h2 {
-  @extend .heading.-medium;
+  font-size: $fs-h2;
+  line-height: $lh-h2;
 }
 
 h3 {
-  @extend .heading.-small;
+  font-size: $fs-h3;
+  line-height: $lh-h3;
+  color: $blue-grey-light;
 }

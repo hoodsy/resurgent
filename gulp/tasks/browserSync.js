@@ -8,7 +8,7 @@ import gulp        from 'gulp';
 gulp.task('browserSync', function() {
 
   const DEFAULT_FILE = 'index.html';
-  const ASSET_EXTENSIONS = ['js', 'css', 'png', 'jpg', 'jpeg', 'gif'];
+  const ASSET_EXTENSIONS = ['js', 'css', 'png', 'jpg', 'jpeg', 'gif', 'otf', 'ttf'];
 
   browserSync.init({
     server: {

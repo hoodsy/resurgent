@@ -21,12 +21,12 @@ export default {
   },
 
   images: {
-    src: 'app/images/**/*',
+    src: 'app/assets/images/**/*',
     dest: 'build/images'
   },
 
   fonts: {
-    src: ['app/fonts/**/*'],
+    src: ['app/assets/fonts/**/*'],
     dest: 'build/fonts'
   },
 
