@@ -1,0 +1,91 @@
+/**
+ * Home View
+ * =========
+**/
+
+.section-nav {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+}
+
+.section-nav h3:first-child {
+  color: $blue-grey;
+}
+
+.section-nav hr {
+  background-color: $blue-grey;
+}
+
+.section-nav-divider {
+  margin: 5px;
+  height: 2px;
+  border: none;
+  background-color: red;
+}
+
+/**
+ * Landing
+ * -----
+**/
+
+.home-landing {
+  height: 80vh;
+  width: 100vw;
+}
+
+.landing-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
+  z-index: -10;
+  object-fit: cover;
+}
+
+/**
+ * About
+ * -----
+**/
+
+.home-about {
+  height: 100vh;
+}
+
+.about-header-1,
+.about-header-2 {
+  text-align: center;
+}
+.about-header-1 {
+  float: left;
+}
+.about-header-2 {
+  float: right;
+}
+
+.about-testimonials {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial-grp {
+  display: flex;
+  margin-top: $pd-small;
+
+  div {
+    margin: 0 $pd-small $pd-small;
+    padding: $pd-small;
+    height: 20vh;
+  }
+}
+
+@for $i from 1 through 4 {
+  .testimonial-#{$i} {
+    background: url('../images/brand-images/shape-about-' + #{$i} + '.svg');
+    background-size: cover;
+  }
+}

@@ -1,0 +1,33 @@
+/**
+ * Spacing
+ * =======
+**/
+
+$pd-body: 75px;
+$pd-small: $pd-body / 3;
+$pd-medium: $pd-small * 2;
+
+/**
+ * Base Element Spacing
+ * ====================
+**/
+
+body {
+  margin: 0;
+}
+
+.header-container {
+  padding: $pd-body;
+}
+
+.body-container {
+  padding: $pd-medium $pd-body;
+}
+
+.content-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
