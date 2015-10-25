@@ -11,11 +11,11 @@
 }
 
 .section-nav h3:first-child {
-  color: $blue-grey;
+  color: $blue-grey-dark;
 }
 
 .section-nav hr {
-  background-color: $blue-grey;
+  background-color: $blue-grey-dark;
 }
 
 .section-nav-divider {
@@ -52,6 +52,7 @@
 
 .home-about {
   height: 100vh;
+  background-color: $white;
 }
 
 .about-header-1,
@@ -83,9 +84,37 @@
   }
 }
 
+// Testimonial background shapes
 @for $i from 1 through 4 {
   .testimonial-#{$i} {
     background: url('../images/brand-images/shape-about-' + #{$i} + '.svg');
     background-size: cover;
   }
+}
+
+/**
+ * Transition
+ * ----------
+**/
+
+.home-transition {
+  height: 1440px;
+  // background: url('../images/hero-images/hero-resurgent.jpg');
+  // background-size: cover;
+}
+
+.transition-hero {
+  height: 1440px;
+  width: 100vw;
+  z-index: -1000;
+  position: relative;
+  // object-fit: contain;
+  background: url('../images/hero-images/hero-resurgent.jpg');
+  // background-size: cover;
+  background-position: bottom left;
+}
+
+.transition-overlay {
+  position: absolute;
+  top: 180vh;
 }
