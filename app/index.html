@@ -15,24 +15,6 @@
     <div ui-view></div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript">
-
-      $(window).bind('scroll',function(e){
-          parallaxScroll();
-      });
-
-
-
-      function parallaxScroll(){
-          var scrolled = $(window).scrollTop();
-          $('#parallax-bg1').css('top',(0-(scrolled*.02))+'px');
-          // $('.transition-overlay').css('top',(0-(scrolled*.5))+'px');
-          $('.transition-hero').css('top',(0-(scrolled*.3))+'px');
-          console.log(0-scrolled*.5);
-
-      }
-
-    </script>
 
     <script src="js/main.js"></script>
   </body>

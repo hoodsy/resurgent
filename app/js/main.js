@@ -9,6 +9,8 @@ import './controllers';
 import './services';
 import './directives';
 
+import './animations/resurgent-parallax';
+
 // create and bootstrap application
 const requires = [
   'ui.router',
