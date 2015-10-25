@@ -87,3 +87,9 @@ h3 {
   line-height: $lh-h3;
   color: $blue-grey-light;
 }
+
+cite {
+  display: block;
+  font-style: normal;
+  font-size: $fs-body * 0.8;
+}
