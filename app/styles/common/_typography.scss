@@ -52,6 +52,8 @@ body {
   line-height: $lh-body;
   font-family: 'ProximaNova-Regular', Arial;
   color: $blue-grey-dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {

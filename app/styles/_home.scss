@@ -67,7 +67,7 @@
 }
 
 .about-testimonials {
-  width: 68%;
+  width: 70%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -75,20 +75,25 @@
 
 .testimonial-grp {
   display: flex;
-  margin-top: $pd-small;
+  margin: $pd-small 0 0;
 
   div {
+    display: flex;
+    flex-direction: column;
     margin: 0 $pd-small;
-    padding: $pd-small;
-    height: 20vh;
+    padding: $pd-medium;
+  }
+
+  p {
+    margin: 0;
   }
 }
 
 // Testimonial background shapes
 @for $i from 1 through 4 {
   .testimonial-#{$i} {
-    background: url('../images/brand-images/shape-about-' + #{$i} + '.svg');
-    background-size: cover;
+    background: url('../images/brand-images/shape-about-' + #{$i} + '-v2.svg');
+    background-size: 100% 100%;
   }
 }
 
@@ -99,22 +104,19 @@
 
 .home-transition {
   height: 1440px;
-  // background: url('../images/hero-images/hero-resurgent.jpg');
-  // background-size: cover;
 }
 
 .transition-hero {
+  position: relative;
+  z-index: -1000;
   height: 1440px;
   width: 100vw;
-  z-index: -1000;
-  position: relative;
-  // object-fit: contain;
   background: url('../images/hero-images/hero-resurgent.jpg');
-  // background-size: cover;
   background-position: bottom left;
 }
 
 .transition-overlay {
   position: absolute;
   top: 180vh;
+  width: 100vw;
 }
