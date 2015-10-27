@@ -66,6 +66,10 @@
   float: right;
 }
 
+.about-description {
+  margin: $pd-small 0 $pd-body;
+}
+
 .about-testimonials {
   width: 70%;
   display: flex;
