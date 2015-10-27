@@ -103,7 +103,8 @@
 **/
 
 .home-transition {
-  height: 1440px;
+  height: 100vh;
+  min-height: 1440px;
 }
 
 .transition-hero {
@@ -111,8 +112,8 @@
   z-index: -1000;
   height: 1440px;
   width: 100vw;
-  background: url('../images/hero-images/hero-resurgent.jpg');
-  background-position: bottom left;
+  background: url('../images/hero-images/hero-resurgent-v2.jpg');
+  background-position: center center;
 }
 
 .transition-overlay {
