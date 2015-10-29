@@ -27,7 +27,7 @@
 
 /**
  * Landing
- * -----
+ * -------
 **/
 
 .home-landing {
@@ -125,3 +125,35 @@
   top: 180vh;
   width: 100vw;
 }
+
+/**
+ * Portfolio
+ * ---------
+**/
+
+.home-portfolio {
+  height: 100vh;
+  background-color: $white;
+}
+
+.portfolio-item {
+  border: 1px solid $blue-grey;
+}
+
+.item-grp {
+  display: flex;
+}
+
+.portfolio-item-img {
+  margin-bottom: -7px;
+}
+
+.portfolio-item-label {
+  padding: $pd-small;
+  text-align: center;
+  font-size: $fs-h2;
+  line-height: $lh-h2;
+  color: $white;
+  background-color: $blue-grey;
+}
+
