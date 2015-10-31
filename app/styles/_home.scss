@@ -96,7 +96,7 @@
 // Testimonial background shapes
 @for $i from 1 through 4 {
   .testimonial-#{$i} {
-    background: url('../images/brand-images/shape-about-' + #{$i} + '-v2.svg');
+    background: url('../images/brand-images/shapes/shape-about-' + #{$i} + '.svg');
     background-size: 100% 100%;
   }
 }

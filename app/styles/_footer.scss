@@ -3,6 +3,10 @@
  * ======
 **/
 
+#footer .content-container {
+  margin-top: 150px;
+}
+
 #footer .body-container {
   padding-bottom: 0;
 }
@@ -14,7 +18,7 @@
   width: 330px;
   height: 100px;
   padding: $pd-medium $pd-small 0;
-  background-image: url('../images/brand-images/shape-footer.svg');
+  background-image: url('../images/brand-images/shapes/shape-footer.svg');
   background-size: cover;
 }
 
@@ -23,4 +27,12 @@
   font-size: $fs-body;
   font-weight: $fw-medium;
   text-transform: uppercase;
+}
+
+.footer-icons {
+  align-self: flex-end;
+  margin: 0 25% -135px 0;
+  img {
+    margin: 5px;
+  }
 }
