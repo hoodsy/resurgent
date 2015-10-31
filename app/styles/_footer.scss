@@ -1,0 +1,26 @@
+/**
+ * Footer
+ * ======
+**/
+
+#footer .body-container {
+  padding-bottom: 0;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 100px;
+  padding: $pd-medium $pd-small 0;
+  background-image: url('../images/brand-images/shape-footer.svg');
+  background-size: cover;
+}
+
+.footer-label {
+  color: $white;
+  font-size: $fs-body;
+  font-weight: $fw-medium;
+  text-transform: uppercase;
+}
