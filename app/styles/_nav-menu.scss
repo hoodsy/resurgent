@@ -7,4 +7,12 @@
   position: fixed;
   right: $pd-body;
   top: $pd-body;
+  z-index: 1000;
+}
+
+.fill-dark {
+  fill: $blue-grey;
+}
+.fill-light {
+  fill: $white;
 }

@@ -10,6 +10,7 @@ import './services';
 import './directives';
 
 import './animations/resurgent-parallax';
+import './animations/nav-menu';
 
 // create and bootstrap application
 const requires = [

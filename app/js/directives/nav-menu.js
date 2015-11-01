@@ -4,8 +4,11 @@ function NavMenu() {
 
   return {
     restrict: 'E',
-    templateUrl: 'directives/nav-menu.html'
+    templateUrl: 'directives/nav-menu.html',
+    link: linkFn
   };
+
+  function linkFn (scope, element) {}
 
 }
 
