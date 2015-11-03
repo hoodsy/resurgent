@@ -10,8 +10,9 @@
   width: 40px;
 }
 
-.section-nav h3:first-child {
-  color: $blue-grey-dark;
+.section-nav h3 {
+  color: $blue-grey;
+  a { color: $blue-grey-light; }
 }
 
 .section-nav hr {
@@ -113,7 +114,8 @@
 .transition-hero {
   position: relative;
   z-index: -1000;
-  height: 1440px;
+  // height: 1440px;
+  height: 120vh;
   width: 100vw;
   background: url('../images/hero-images/hero-resurgent-v2.jpg');
   background-position: center center;

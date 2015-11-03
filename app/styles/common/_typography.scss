@@ -64,6 +64,14 @@ p {
   max-width: $lw;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: $green !important;
+}
+
+
 h1,
 h2,
 h3 {
