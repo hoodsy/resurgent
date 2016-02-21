@@ -81,6 +81,7 @@
     "protractor": "npm run protractor test/protractor.conf.js"
   },
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
   }
 }

@@ -52,6 +52,10 @@ export default {
     protractor: 'test/protractor.conf.js'
   },
 
+  deploy: {
+    src: 'build/**/*'
+  },
+
   init() {
     this.views.watch = [
       this.views.index,
