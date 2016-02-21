@@ -10,6 +10,20 @@
   <div class="header-container">
     <img class="brand-logo"
       src="images/brand-images/logo.svg">
+    <div class="header-icons">
+      <a href="https://www.github.com/hoodsy"
+        target="_blank">
+        <ng-include src="'icons/icon-github.html'"></ng-include>
+      </a>
+      <a href="https://twitter.com/_hoodsy"
+        target="_blank">
+        <ng-include src="'icons/icon-twitter.html'"></ng-include>
+      </a>
+      <a href="https://dribbble.com/hoodsy"
+        target="_blank">
+        <ng-include src="'icons/icon-dribbble.html'"></ng-include>
+      </a>
+    </div>
     <h1 class="brand-headline">Resurgent</h1>
   </div>
 
@@ -47,48 +61,6 @@
         <br>
         We propel ambitious teams and organizations by cultivating delightful digital experiences.
       </p>
-
-    <!-- About Testimonials -->
-      <div class="about-testimonials">
-        <h3>Client Testimonials</h3>
-        <div class="testimonial-grp">
-          <div class="testimonial-1">
-            <p>
-              “The launch of our new knowledge base went off without a hitch.
-              Our customers were very pleased with the end result.”
-            </p>
-            <cite>Emily Glass</cite>
-            <cite>VP of Something or Other, Datto</cite>
-          </div>
-          <div class="testimonial-2">
-            <p>
-              “The launch of our new knowledge base went off without a hitch.
-              Our customers were very pleased with the end result.”
-            </p>
-            <cite>Emily Glass</cite>
-            <cite>VP of Something or Other, Datto</cite>
-          </div>
-        </div>
-        <div class="testimonial-grp">
-          <div class="testimonial-3">
-            <p>
-              “The launch of our new knowledge base went off without a hitch.
-              Our customers were very pleased with the end result.”
-            </p>
-            <cite>Emily Glass</cite>
-            <cite>VP of Something or Other, Datto</cite>
-          </div>
-          <div class="testimonial-4">
-            <p>
-              “The launch of our new knowledge base went off without a hitch.
-              Our customers were very pleased with the end result.”
-            </p>
-            <cite>Emily Glass</cite>
-            <cite>VP of Something or Other, Datto</cite>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -96,10 +68,8 @@
 <!-- Transition -->
 <!-- ========== -->
 <section id="home-transition">
-  <!-- <img class="transition-hero" src="images/hero-images/hero-resurgent.jpg"> -->
-  <div class="transition-hero"></div>
-  <img class="transition-overlay" src="images/brand-images/RESURGENT.svg">
-
+    <img class="transition-overlay"
+      src="images/brand-images/RESURGENT-v2.jpg">
 </section>
 
 <!-- Portfolio -->
@@ -126,23 +96,34 @@
           src="images/case-studies/lrn/lrn.jpg" alt="lrn">
         <div class="portfolio-item-label">lrn - iOS</div>
       </div>
+      <div class="portfolio-item portfolio-web">
+        <img class="portfolio-item-img"
+          src="images/case-studies/vanilla-forums/vanilla-forums-landing.jpg" alt="vanilla forums">
+        <div class="portfolio-item-label">Datto Community Forums - Web</div>
+      </div>
       <div class="portfolio-item-grp">
         <div class="portfolio-item portfolio-mobile">
           <img class="portfolio-item-img"
-            src="images/case-studies/styleguide/styleguide-mobile-3.jpg" alt="lrn">
+            src="images/case-studies/styleguide/styleguide-mobile-3.jpg" alt="styleguide">
           <div class="portfolio-item-label">Datto Styleguide - Web</div>
         </div>
         <div class="portfolio-item portfolio-mobile">
           <img class="portfolio-item-img"
-            src="images/case-studies/coffee/coffee-ats-mobile.jpg" alt="lrn">
+            src="images/case-studies/coffee/coffee-ats-mobile.jpg" alt="coffee">
           <div class="portfolio-item-label">Coffee ATS - Web</div>
         </div>
       </div>
       <div class="portfolio-item portfolio-web">
         <img class="portfolio-item-img"
-          src="images/case-studies/knowledge-base/kb-landing.jpg" alt="lrn">
+          src="images/case-studies/kmb-yoga/kmb-yoga-landing.jpg" alt="kmb yoga">
+        <div class="portfolio-item-label">KMB Yoga - Web</div>
+      </div>
+      <div class="portfolio-item portfolio-web">
+        <img class="portfolio-item-img"
+          src="images/case-studies/knowledge-base/kb-landing.jpg" alt="knowledge base">
         <div class="portfolio-item-label">Datto Knowledge Base - Web</div>
       </div>
+
 
     </div>
   </div>
@@ -168,9 +149,18 @@
 
       <!-- Footer Icons -->
       <div class="footer-icons">
-        <img src="images/brand-images/icons/icon-github.svg" alt="github">
-        <img src="images/brand-images/icons/icon-twitter.svg" alt="twitter">
-        <img src="images/brand-images/icons/icon-dribbble.svg" alt="dribbble">
+        <a href="https://www.github.com/hoodsy"
+          target="_blank">
+          <ng-include src="'icons/icon-github.html'"></ng-include>
+        </a>
+        <a href="https://twitter.com/_hoodsy"
+          target="_blank">
+          <ng-include src="'icons/icon-twitter.html'"></ng-include>
+        </a>
+        <a href="https://dribbble.com/hoodsy"
+          target="_blank">
+          <ng-include src="'icons/icon-dribbble.html'"></ng-include>
+        </a>
       </div>
 
       <!-- Footer Body -->
@@ -179,7 +169,9 @@
           Ready to get started?
         </label>
         <button class="footer-btn">
-          Get in touch
+          <a href="mailto:bernard.logan4@gmail.com">
+            Get in touch
+          </a>
         </button>
       </div>
 

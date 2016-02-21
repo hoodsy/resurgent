@@ -17,6 +17,7 @@
   align-items: center;
   width: 330px;
   height: 100px;
+  margin-right: -42px;
   padding: $pd-medium $pd-small 0;
   background-image: url('../images/brand-images/shapes/shape-footer.svg');
   background-size: cover;
@@ -31,15 +32,15 @@
 
 .footer-company {
   align-self: flex-start;
-  margin: 0 0 -25px 22%;
+  margin: 0 0 -25px 10vw;
   font-size: 0.75rem;
   color: $blue-grey-light;
 }
 
 .footer-icons {
   align-self: flex-end;
-  margin: 0 25% -135px 0;
-  img {
+  margin: 0 10vw -135px 0;
+  svg {
     margin: 5px;
   }
 }

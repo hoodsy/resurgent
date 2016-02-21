@@ -13,4 +13,16 @@ button {
   font-family: 'ProximaNova-Regular';
   background-color: $green;
   border: none;
+  transition: all 0.25s ease-in;
+  a {
+    padding: 14px 28px;
+    color: $blue-grey;
+  }
+  a:hover {
+    color: $blue-grey !important;
+  }
+}
+
+button:hover {
+  background-color: $white;
 }

@@ -47,6 +47,24 @@
   object-fit: cover;
 }
 
+.header-icons {
+  float: right;
+  margin-top: 18px;
+  svg {
+    height: 25px;
+    width: 25px;
+    padding: 0 10px;
+  }
+}
+
+.header-icons,
+.footer-icons {
+  a:hover svg g g {
+    transition: all 0.25s ease-in;
+    fill: $green;
+  }
+}
+
 /**
  * About
  * -----
@@ -68,7 +86,7 @@
 }
 
 .about-description {
-  margin: $pd-small 0 $pd-body;
+  margin: $pd-small 0 0;
 }
 
 .about-testimonials {
@@ -108,23 +126,14 @@
 **/
 
 #home-transition {
-  min-height: 1440px;
-}
-
-.transition-hero {
-  position: relative;
-  z-index: -1000;
-  // height: 1440px;
-  height: 120vh;
-  width: 100vw;
-  background: url('../images/hero-images/hero-resurgent-v2.jpg');
-  background-position: center center;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .transition-overlay {
-  position: absolute;
-  top: 180vh;
-  width: 100vw;
+  margin-right: -52px;
 }
 
 /**
@@ -138,11 +147,13 @@
 
 .portfolio-item {
   border: 1px solid $blue-grey;
+  margin-top: $pd-xsmall;
+  margin-bottom: $pd-xsmall;
 }
 
 .portfolio-item-grp {
   display: flex;
-  padding: $pd-small 0;
+  // padding: $pd-small 0;
 }
 .portfolio-item-grp .portfolio-item:first-child {
   margin-right: 139px;
