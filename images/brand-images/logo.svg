@@ -1,1 +1,59 @@
-<svg width="143" height="137" viewBox="0 0 143 137" xmlns="http://www.w3.org/2000/svg"><title>logo</title><desc>Created with Sketch.</desc><g fill="none"><path d="M71.383.5L142.5 136.28H.5L71.383.5z" fill="#586E7E"/><g fill="#93ECCD"><path id="left" d="M15.5 110L28 135H3z"/><path id="right" d="M29.5 135L42 110H17z"/></g><g fill="#93ECCD"><g id="bottom"><path id="left" d="M29.5 83.5l12.5 25H17z"/><path id="right" d="M43.5 108.5l12.5-25H31z"/></g><g id="top"><path id="left" d="M43.5 57L56 82H31z"/><path id="right" d="M57.5 82L70 57H45z"/></g></g><g fill="#fff"><g><path id="right" d="M113.5 83.5l-12.5 25h25z"/><path id="left" d="M99.5 108.5L87 83.5h25z"/></g><g id="top"><path id="right" d="M99.5 57L87 82h25z"/><path id="left" d="M85.5 82L73 57h25z"/></g></g><g><path id="left" fill="#93ECCD" d="M57.5 30.5l12.5 25H45z"/><path id="right" fill="#fff" d="M85.5 30.5l12.5 25H73z"/><path fill="#93ECCD" d="M71.5 4L84 29H59z"/><path id="middle" fill="#93ECCD" d="M71.5 55.5l12.5-25H59z"/></g><g fill="#93ECCD"><path id="left" d="M43.5 110L56 135H31z"/><path id="right" d="M57.5 135L70 110H45z"/></g><g><path id="left" fill="#93ECCD" d="M71.5 110L84 135H59z"/><path id="right" fill="#fff" d="M85.5 135L98 110H73z"/></g><g fill="#fff"><path d="M99.5 110l12.5 25H87z"/><path d="M127.5 110l12.5 25h-25z"/><path d="M113.5 135l12.5-25h-25z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="143px" height="137px" viewBox="0 0 143 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Brand" sketch:type="MSArtboardGroup" transform="translate(-441.000000, -257.000000)">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(441.000000, 257.000000)">
+                <path d="M71.3834403,0.5 L142.5,136.281022 L0.5,136.281022 L71.3834403,0.5 Z" id="background" fill="#586E7E" sketch:type="MSShapeGroup"></path>
+                <g transform="translate(3.000000, 4.000000)" sketch:type="MSShapeGroup">
+                    <g id="bottom-left" transform="translate(0.000000, 106.000000)" fill="#93ECCD">
+                        <polygon id="left" points="12.5 0 25 25 0 25 "></polygon>
+                        <polygon id="right" transform="translate(26.500000, 12.500000) scale(1, -1) translate(-26.500000, -12.500000) " points="26.5 0 39 25 14 25 "></polygon>
+                    </g>
+                    <g id="middle-left" transform="translate(14.000000, 52.000000)" fill="#93ECCD">
+                        <g id="bottom" transform="translate(0.000000, 27.000000)">
+                            <polygon id="left" points="12.5 0.5 25 25.5 0 25.5 "></polygon>
+                            <polygon id="right" transform="translate(26.500000, 13.000000) scale(1, -1) translate(-26.500000, -13.000000) " points="26.5 0.5 39 25.5 14 25.5 "></polygon>
+                        </g>
+                        <g id="top" transform="translate(14.000000, 0.500000)">
+                            <polygon id="left" points="12.5 0.5 25 25.5 0 25.5 "></polygon>
+                            <polygon id="right" transform="translate(26.500000, 13.000000) scale(1, -1) translate(-26.500000, -13.000000) " points="26.5 0.5 39 25.5 14 25.5 "></polygon>
+                        </g>
+                    </g>
+                    <g id="middle-right" transform="translate(96.500000, 78.500000) scale(-1, 1) translate(-96.500000, -78.500000) translate(70.000000, 52.000000)" fill="#FFFFFF">
+                        <g id="bottom" transform="translate(0.000000, 27.000000)">
+                            <polygon id="right" points="12.5 0.5 25 25.5 0 25.5 "></polygon>
+                            <polygon id="left" transform="translate(26.500000, 13.000000) scale(1, -1) translate(-26.500000, -13.000000) " points="26.5 0.5 39 25.5 14 25.5 "></polygon>
+                        </g>
+                        <g id="top" transform="translate(14.000000, 0.500000)">
+                            <polygon id="right" points="12.5 0.5 25 25.5 0 25.5 "></polygon>
+                            <polygon id="left" transform="translate(26.500000, 13.000000) scale(1, -1) translate(-26.500000, -13.000000) " points="26.5 0.5 39 25.5 14 25.5 "></polygon>
+                        </g>
+                    </g>
+                    <g id="top" transform="translate(42.000000, 0.000000)">
+                        <polygon id="left" fill="#93ECCD" points="12.5 26.5 25 51.5 0 51.5 "></polygon>
+                        <polygon id="right" fill="#FFFFFF" points="40.5 26.5 53 51.5 28 51.5 "></polygon>
+                        <polygon fill="#93ECCD" points="26.5 0 39 25 14 25 "></polygon>
+                        <polygon id="middle" fill="#93ECCD" transform="translate(26.500000, 39.000000) scale(1, -1) translate(-26.500000, -39.000000) " points="26.5 26.5 39 51.5 14 51.5 "></polygon>
+                    </g>
+                    <g id="bottom-mid-left" transform="translate(28.000000, 106.000000)" fill="#93ECCD">
+                        <polygon id="left" points="12.5 0 25 25 0 25 "></polygon>
+                        <polygon id="right" transform="translate(26.500000, 12.500000) scale(1, -1) translate(-26.500000, -12.500000) " points="26.5 0 39 25 14 25 "></polygon>
+                    </g>
+                    <g id="bottom-mid-right" transform="translate(56.000000, 106.000000)">
+                        <polygon id="left" fill="#93ECCD" points="12.5 0 25 25 0 25 "></polygon>
+                        <polygon id="right" fill="#FFFFFF" transform="translate(26.500000, 12.500000) scale(1, -1) translate(-26.500000, -12.500000) " points="26.5 0 39 25 14 25 "></polygon>
+                    </g>
+                    <g id="bottom-right" transform="translate(84.000000, 106.000000)" fill="#FFFFFF">
+                        <polygon id="left" points="12.5 0 25 25 0 25 "></polygon>
+                        <polygon id="right" points="40.5 0 53 25 28 25 "></polygon>
+                        <polygon id="middle" transform="translate(26.500000, 12.500000) scale(1, -1) translate(-26.500000, -12.500000) " points="26.5 0 39 25 14 25 "></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
