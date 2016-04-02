@@ -6,6 +6,6 @@ import del    from 'del';
 
 gulp.task('clean', function(cb) {
 
-  del([config.buildDir], cb);
+  return del([config.buildDir], cb);
 
 });

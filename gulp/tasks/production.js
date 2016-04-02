@@ -3,10 +3,20 @@
 import gulp        from 'gulp';
 import runSequence from 'run-sequence';
 
-gulp.task('prod', ['clean'], function(cb = function() {}) {
+gulp.task('prod', function(cb) {
 
   global.isProd = true;
 
-  runSequence(['styles', 'images', 'fonts', 'views', 'browserify'], 'gzip', cb);
+  runSequence(
+    // 'clean',
+    [
+      'styles',
+      'images',
+      'fonts',
+      'views',
+      'browserify'
+    ],
+    'gzip',
+  cb);
 
 });
