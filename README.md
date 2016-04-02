@@ -1,3 +1,9 @@
+Resurgent (Portfolio Site)
+==========================
+
+1. ```gulp dev``` to run
+2. Change ```<base/>``` in ```index.html``` for deploy
+
 angularjs-gulp-browserify-boilerplate
 =====================================
 
