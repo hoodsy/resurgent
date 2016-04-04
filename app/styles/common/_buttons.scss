@@ -26,3 +26,9 @@ button {
 button:hover {
   background-color: $white;
 }
+
+.footer-btn {
+  @include tablet {
+    width: 210px;
+  }
+}

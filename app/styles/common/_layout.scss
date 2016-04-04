@@ -24,10 +24,16 @@ section {
 
 .header-container {
   padding: $pd-body;
+  @include tablet {
+    padding: 2.5vh 2.5vw;
+  }
 }
 
 .body-container {
   padding: $pd-medium $pd-body;
+  @include tablet {
+    padding: 2.5vh 2.5vw;
+  }
 }
 
 .content-container {
@@ -36,4 +42,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include tablet {
+    width: 95vw;
+  }
 }

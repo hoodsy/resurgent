@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
   width: 40px;
+  @include tablet {
+    display: none;
+  }
 }
 
 .section-nav h3 {
@@ -35,6 +38,10 @@
   height: 80vh;
   min-height: 750px;
   width: 100vw;
+  @include tablet {
+    min-height: 0px;
+    height: 70vh;
+  }
 }
 
 .landing-hero {
@@ -45,6 +52,9 @@
   width: 100vw;
   z-index: -10;
   object-fit: cover;
+  @include tablet {
+    height: 70vh;
+  }
 }
 
 .header-icons {
@@ -74,6 +84,11 @@
   background-color: $white;
 }
 
+.about-headers h1 {
+  font-size: 35px;
+}
+
+.about-headers h1,
 .about-header-1,
 .about-header-2 {
   text-align: center;
@@ -87,6 +102,9 @@
 
 .about-description {
   margin: $pd-small 0 0;
+  @include tablet {
+    text-align: center;
+  }
 }
 
 .about-testimonials {
@@ -130,10 +148,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include tablet {
+    height: 70vh;
+  }
 }
 
 .transition-overlay {
   margin-right: -52px;
+  @include tablet {
+    margin-right: 0;
+    width: 100%;
+  }
 }
 
 /**
@@ -168,18 +193,38 @@
   opacity: 0;
 }
 
+@include tablet {
+  .portfolio-item:before {
+    display: none;
+  }
+}
+
 .portfolio-item-grp {
   display: flex;
+  @include tablet {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95vw;
+  }
 }
 .portfolio-item-grp .portfolio-item:first-child {
   margin-right: 139px;
+  @include tablet {
+    margin-right: 0;
+  }
 }
 
 .portfolio-web {
   width: 720px;
+  @include tablet {
+    width: 95vw;
+  }
 }
 .portfolio-mobile {
   width: 290px;
+  @include tablet {
+    width: 90vw;
+  }
 }
 .portfolio-mobile .portfolio-item-img {
   height: 516px;

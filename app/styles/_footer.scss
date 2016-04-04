@@ -21,6 +21,11 @@
   padding: $pd-medium $pd-small 0;
   background-image: url('../images/brand-images/shapes/shape-footer.svg');
   background-size: cover;
+  @include tablet {
+    margin-right: 0;
+    width: 95vw;
+    padding: 7vh 2.5vw 0;
+  }
 }
 
 .footer-label {

@@ -28,6 +28,7 @@
  * =====================
 **/
 
+
 $fs-body: 18px;
 $fs-h1: $fs-body * 2;
 $fs-h2: $fs-body * 1.5;
@@ -57,6 +58,9 @@ body {
   color: $blue-grey-dark;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @include tablet {
+    font-size: 16px;
+  }
 }
 
 p {
@@ -76,6 +80,7 @@ h1,
 h2,
 h3 {
   font-family: 'Futura-Medium';
+  font-weight: $fw-regular;
   text-transform: uppercase;
 }
 

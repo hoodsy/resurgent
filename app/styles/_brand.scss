@@ -7,6 +7,10 @@
   height: 60px;
   width: 60px;
   margin-bottom: 25px;
+  @include tablet {
+    height: 45px;
+    width: 45px;
+  }
 }
 
 .brand-headline {
@@ -16,4 +20,9 @@
   line-height: $lh-headline;
   letter-spacing: $fs-h1 / 4;
   text-align: center;
+  @include tablet {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 3px;
+  }
 }
